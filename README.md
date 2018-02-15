@@ -8,9 +8,11 @@ Paddy allows you to insert a padding of desired length and content within a stri
 ### Example
 
 ```js
-const pad           = paddy(4, '👻');
-const simplePhrase  = `${pad}I love simple tabs!`;
-const complexPhrase = `${pad}I love ghost tabs!`;
+const simpleTab     = paddy(4);
+const ghostTab      = paddy(4, '👻');
+
+const simplePhrase  = `${simpleTab}I love simple tabs!`;
+const complexPhrase = `${ghostTab}I love ghost tabs!`;
 
 console.log(simplePhrase);  // "    I love simple tabs!"
 console.log(complexPhrase); // "👻👻👻👻I love ghost tabs!"
