@@ -1,5 +1,5 @@
 # 🌾🌾 Paddy
-JavaScript module for inserting character padding into a string.
+Tiny (60B) JavaScript module for inserting character padding into a string
 
 ## Purpose
 
